@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BCy8cfNMfn1qEU6stZlABltRSSMO735KdDHiDwCoY8W0ebjS4ZDODizQEMQwASuhOvR2J/9d1FT+NV7uvuaj3lGl9z8fsbQ0FZtyfjCqPiqTmVY6zMbyagOfu9/iKzR+26s/fSsV0mZOcW5rE68/uk4PckWAfj0KjRcLMPbYfCs5VODyyINJjqKYSelHj+TXWDmFRbl+cICfknUm/Wyp5iigASQUpPwBGcmpPMvihEPPTQjDe14v2lzBPCDzj4A16Mk1uFNn+Gil/j7NkiXPDZWF7Q+9a0R5OBJqfPUch+wqeueqqYxc1gRLsU1aCl/zgJXeuvO17kUa2XGa8Gq9n0hwRgE5uyvNIemyIOfjwo5/PlLYCJEjo2aYFik0Lg6S9VzkaBvqkJGcAR4R4o+p8xO2sOTmo8gAvFjQl6fbLqlR3NOl6bUoWNGTvfRWE/lF+Ul5WXd++oqTpm2w8UKbixUVa56SmbjyJOiFgamSRo9+jhwxI2L3YZZ49wQBmXBPnuZqZJFgHZBEr4qkgIL3zR9lhmskiPgf2nqd5qXSaItr7BCOuQiXPoAafQoT7d4jT/Kv5Pb+sZ3xsnIEwwO6SRKPd9pJTBSJUhKcc0+fT8t2jvr+Bn+vdhFL2ynaIv75QVYPBX4dQpQPBDaXvW85k1jF6Y0FIUh05zCtCybuxaA=
+  app: polar-gorge-17021
+  on:
+    repo: azhou125/node-shopping-list-integration-tests
